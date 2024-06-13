@@ -49,13 +49,13 @@
                     <td>Rp.{{ $his->total_price }}</td>
                     <td>
                         @if ($his->status == 'Unpaid')
-                            <a href="payment/status/invoice/<?=$his->trx_id?>" class="btn btn-warning  fw-bold btn-sm">Bayar</a>
+                            <a href="payment/status/invoice/<?=$his->trx_id?>" class="btn btn-warning  fw-bold btn-sm">BAYAR</a>
                         @elseif($his->status == 'Pending')
                         <a href="payment/status/invoice/<?=$his->trx_id?>" class="btn btn-info  text-light fw-bold btn-sm">{{ $his->status }}</a>
                         @elseif($his->status == 'Failed')
                          <button class="btn btn-danger btn-sm fw-bold">Failed</button>
                         @else
-                            <button class="btn btn-success btn-sm fw-bold">PAID</button>
+                            <button class="btn btn-success btn-sm fw-bold">TERBAYARKAN</button>
                         @endif
                     </td>
                 </tr>
