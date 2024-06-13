@@ -41,7 +41,7 @@ ITMove is a website that allows users to browse and book trips, as well as reque
 
 ## Installing
 
-1. Clone the repository to your local machine: git clone https://github.com/NathalieWijaya/Tripify.git
+1. Clone the repository to your local machine: git clone https://github.com/roywenangr/ITMove-v99.git
 
 2. Install dependencies: composer install
 
